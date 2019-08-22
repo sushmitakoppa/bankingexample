@@ -1,0 +1,84 @@
+body{
+    background-image:linear-gradient(rgba(39, 39, 37, 0.8),rgba(0,0,0,0.6)), url("banking2.jpg");/*background-image: linear-gradient(direction, color-stop1, color-stop2, ...);*/
+    height: 100vh;
+   background-repeat: no-repeat;/* pic will not repeat*/
+   background-size: cover;/* to make pic to full cover to page */
+background-position: center;
+font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background:linear-gradient(rgba(71, 243, 243, 0.5),rgba(71, 97, 243, 0.5),rgba(212, 57, 205, 0.5));
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+.avater{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+
+    
+}
+h1{
+    margin: 10px;
+    padding: 0 0 2px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+
+.loginbox input[type="text"],input[type="password"]/* this function will make those inputing box transparent without border  */
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgray;
+}
+.loginbox a:hover{
+    color: rgb(255, 0, 0);
+}

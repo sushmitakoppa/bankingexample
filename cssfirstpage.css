@@ -1,0 +1,76 @@
+*{
+    margin: o;
+    padding: 0;
+    font-family: Centure Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url("banking2.jpg");/*background-image: linear-gradient(direction, color-stop1, color-stop2, ...);*/
+    height: 100vh;
+   background-repeat: no-repeat;/* pic will not repeat*/
+   background-size: cover;/* to make pic to full cover to page */
+background-position: center;
+}
+
+ul{
+    float: left;/* list will come on left side of page*/
+    list-style-type: none;
+    margin-top: 25px;
+    position: sticky;
+    top: 0%;
+}
+
+
+
+ul li{
+    display: inline-block; /* list will become side by side*/
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 25px;/* border will not be sharp edge*/
+    padding: 5px 20px;/* values will be :top right bottom left */
+    border: 1px solid transparent;
+    box-shadow: 10px 10px 5px grey;
+    transition: 0.5s ease-in;/* to make menu of link to show softly*/
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+
+}
+
+ul li.login a{
+    float: right;
+    margin-left: 500px;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(211, 20, 179);
+    font-size: 20px;
+
+}
+
+/*logo editing of image*/
+.logo img{
+    float: left;
+    margin: 15px;
+    width: 40px;
+    height: 10%;
+}
+
+
+.main{
+    max-width: 1250px;  /* so that our website show on center*/
+    margin: auto;
+   
+}

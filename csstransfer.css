@@ -1,0 +1,126 @@
+body{
+    background-image:linear-gradient(rgba(58, 58, 55, 0.8),rgba(0,0,0,0.6)), url("backgroundimg.jpg");/*background-image: linear-gradient(direction, color-stop1, color-stop2, ...);*/
+    height: 100vh;
+   background-repeat: no-repeat;/* pic will not repeat*/
+   background-size: cover;/* to make pic to full cover to page */
+background-position: center;
+font-family: sans-serif;
+}
+
+
+
+
+ul.topright {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    list-style-type: none;
+    border: 5px;
+    padding: 10px;
+    font-size: 25px;
+    
+
+}
+
+ul.topright li a {
+    text-decoration: none;
+    color: rgb(250, 1, 1);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border-radius: 25px;/* border will not be sharp edge*/
+    padding: 5px 20px;/* values will be :top right bottom left */
+    border: 1px solid transparent;
+    box-shadow: 10px 10px 5px grey;
+    transition: 0.5s ease-in;/* to make menu of link to show softly*/
+
+}
+
+ul.topright li {
+    display: inline-block;
+}
+
+
+ul.topright li a:hover{
+    background-color: rgb(251, 0, 189);
+    color: rgb(217, 255, 0);
+}
+
+
+ul.topright li.active a{
+    background-color: rgb(21, 255, 0);
+    color: black;
+
+}
+
+
+
+
+
+
+
+/*      form      */
+
+.formbox{
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    font-size: 26px;
+    background:linear-gradient(rgba(167, 255, 2, 0.5),rgba(0, 255, 255, 0.5),rgba(25, 0, 255, 0.5));
+    box-shadow: 5px 10px 8px 10px #888888;
+    color: #fff;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    
+    
+}
+
+h1{
+    margin: 10px;
+    padding: 0 0 2px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.formbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+.formbox input{
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+
+.formbox input[type="text"],input[type="password"],input[type="number"]/* this function will make those inputing box transparent without border  */
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.formbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.formbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #51ff00;
+    color: #000;
+}
