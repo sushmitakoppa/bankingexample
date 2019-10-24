@@ -1,0 +1,2 @@
+This is simple front end design of the banking example.
+I have used only HTML and CSS. 

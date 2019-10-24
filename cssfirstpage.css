@@ -6,7 +6,7 @@
 
 header{
     background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url("banking2.jpg");/*background-image: linear-gradient(direction, color-stop1, color-stop2, ...);*/
-    height: 100vh;
+    
    background-repeat: no-repeat;/* pic will not repeat*/
    background-size: cover;/* to make pic to full cover to page */
 background-position: center;
@@ -16,7 +16,7 @@ ul{
     float: left;/* list will come on left side of page*/
     list-style-type: none;
     margin-top: 25px;
-    position: sticky;
+    position: fixed;
     top: 0%;
 }
 
@@ -28,8 +28,9 @@ ul li{
 
 ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 0, 0);
     font-size: 20px;
+    background-color: aqua;
     border-radius: 25px;/* border will not be sharp edge*/
     padding: 5px 20px;/* values will be :top right bottom left */
     border: 1px solid transparent;
@@ -63,7 +64,7 @@ ul li.login a{
 /*logo editing of image*/
 .logo img{
     float: left;
-    margin: 15px;
+    margin: 1px;
     width: 40px;
     height: 10%;
 }
